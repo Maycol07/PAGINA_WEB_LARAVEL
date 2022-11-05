@@ -1,0 +1,3 @@
+<?php echo $__env->make('Plantillas.Encabezado', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->yieldContent('Contenido'); ?>
+<?php echo $__env->make('Plantillas.Pie', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\Huawei\resources\views/Plantillas/Base.blade.php ENDPATH**/ ?>
